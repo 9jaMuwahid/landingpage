@@ -14,7 +14,7 @@
     padding-top: 20px;
     padding-left: 128px;
     padding-right:128px;
-    padding: bottom 55px;
+    padding-bottom: 55px;
     margin-bottom:50px;
 
 }
@@ -86,3 +86,48 @@ button{
     color: #e5e7eb;
     align-items: center;
 }
+
+/* below is the middle of the landing page*/
+
+.info{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-bottom: 50px;
+
+}
+.images{
+    display:flex;
+    flex-direction: row;
+    gap: 25px;
+
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border:2px solid #3882f6;
+    border-radius: 5px;
+    flex-direction: column;
+    text-align:center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+
+
